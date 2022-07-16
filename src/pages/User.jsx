@@ -30,6 +30,7 @@ const User = () => {
       public_gists,
       hireable,
     } = user
+    console.log(user)
 
     if(loading) {
       return <p>Loading...</p>
